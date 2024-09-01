@@ -32,7 +32,7 @@ if not SECRET_KEY:
 DEBUG = str2bool(os.environ.get('DEBUG'))
 #print(' DEBUG -> ' + str(DEBUG) ) 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['206.81.24.122']
 
 CSRF_TRUSTED_ORIGINS = ['http://localhost:8000', 'http://localhost:5085', 'http://127.0.0.1:8000', 'http://127.0.0.1:5085']
 
